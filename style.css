@@ -229,3 +229,96 @@ body {
     font-size: 1.6rem;
     margin-bottom: 3rem;
 }
+
+/* header */
+
+.header {
+    margin-left: 8rem;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,.3), rgba(0,0,0,.8)), url(image/palace-7701252_1920.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 2rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-logo {
+    width: 3rem;
+}
+
+.brand-logo img {
+    width: 100%;
+}
+
+.brand-title {
+    font-size: 2rem;
+    color: #deaa86;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-headline {
+    font-size: 7rem;
+    background: linear-gradient(to right, gold, goldenrod);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: anim 3s;
+}
+
+.banner-headline:hover {
+    background: linear-gradient(to left, gold, goldenrod);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.banner-paragraph {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    margin-top: 0;
+    margin-bottom: 8rem;
+    animation: anim 2.5s .5s backwards;
+}
+
+.banner-btn {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 3rem;
+    background: linear-gradient(to right, gold, goldenrod);
+    cursor: pointer;
+    
+    animation: anim 2s 1s backwards;
+}
+
+.banner-btn:hover {
+    background: linear-gradient(to left, gold, goldenrod);
+}
+
+.banner-btn:active {
+    transform: translateY(.2rem);
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
