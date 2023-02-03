@@ -322,3 +322,109 @@ body {
         opacity: 1;
     }
 }
+
+/* about us start */
+
+.about-us {
+    margin-left: 8rem;
+    display: flex;
+    padding-bottom: 12rem;
+
+}
+
+.about-us-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 12rem;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #fff, #fffaaa);    
+}
+
+.about-us-heading {
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.small-underline {
+    width: 6rem;
+    height: .2rem;
+    background-color: #deaa86;
+    margin: 0 auto 1rem auto;
+    
+}
+
+.large-underline {
+    width: 18rem;
+    height: .2rem;
+    background-color: #deaa86;
+    
+}
+
+.about-us-subheading {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #deaa86;
+}
+
+.about-us-paragraph {
+    
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+
+.about-us-btn {
+    margin-top: 2.4rem;
+    padding: 1.4rem 1.8rem;
+    border-radius: 10rem;
+    border: 1px solid #deaa86;
+    background: linear-gradient(to left, #fffaaa, #deaa86);
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.6rem;
+}
+
+.about-us-btn:hover {
+    background: linear-gradient(to right, #fffaaa, #deaa86);
+}
+
+.about-us-images {
+    flex: 1 1;
+    position: relative;
+    background: linear-gradient(to left, #fff, #fffaaa);
+    z-index: -30;
+}
+
+.about-us-images .image {
+    width: 50%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    box-shadow: 0rem 3rem 6rem rgba(0,0,0,.4);
+    border: .2rem solid #fffaaa;
+}
+
+.about-us-images .image-1 {
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.about-us-images .image-2 {
+    transform: translate(-10%, -60%);
+    z-index: -10;
+}
+
+.about-us-images .image-3 {
+    transform: translate(-20%, -10%);
+}
+
+.about-us-images .image-4 {
+    transform: translate(-60%, -20%);
+    z-index: -20;
+}
+
+
+/* about us end */
