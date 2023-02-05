@@ -302,7 +302,6 @@ body {
     border-radius: 3rem;
     background: linear-gradient(to right, gold, goldenrod);
     cursor: pointer;
-    
     animation: anim 2s 1s backwards;
 }
 
@@ -328,8 +327,7 @@ body {
 .about-us {
     margin-left: 8rem;
     display: flex;
-    padding-bottom: 12rem;
-
+    padding-bottom: 2rem;
 }
 
 .about-us-content {
@@ -342,7 +340,7 @@ body {
     background: linear-gradient(to right, #fff, #fffaaa);    
 }
 
-.about-us-heading {
+.common-heading {
     font-size: 3.6rem;
     margin-bottom: 1.5rem;
 }
@@ -352,17 +350,16 @@ body {
     height: .2rem;
     background-color: #deaa86;
     margin: 0 auto 1rem auto;
-    
 }
 
 .large-underline {
     width: 18rem;
     height: .2rem;
     background-color: #deaa86;
-    
+    margin: 0 auto 1rem auto;    
 }
 
-.about-us-subheading {
+.common-subheading {
     font-size: 2.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -428,3 +425,101 @@ body {
 
 
 /* about us end */
+
+/* rooms start */
+
+.rooms {
+    margin-left: 8rem;
+}
+
+.common-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.rooms-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60rem;
+    background: linear-gradient(to right, #555, #333);
+    margin: 2rem 0;
+    border-radius: 1.6rem;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, .6);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+.card-content {
+    padding: 1.6rem 2rem 2.4rem 2rem;
+    color: #ddd;
+
+}
+
+.card-heading {
+    display: inline;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    background: linear-gradient(to left, #fffaaa, #deaa86);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.card-paragraph {
+    font-size: 1.8rem;
+}
+
+.card-price {
+    font-size: 4.8rem;
+    text-align: right;
+    margin: 0;
+}
+
+.room-btn {
+    margin-top: 2.4rem;
+    padding: 1.4rem 1.8rem;
+    border-radius: 10rem;
+    border: 1px solid #deaa86;
+    background: linear-gradient(to left, #fffaaa, #deaa86);
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.6rem;
+}
+
+.room-btn:hover {
+    background: linear-gradient(to right, #fffaaa, #deaa86);
+}
+
+/* rooms end */
+
+.check-all-btn-wrapper {
+    margin: 4rem;
+    text-align: center;
+}
+
+.check-all-btn {
+    padding: 1.6rem;
+    background: #fffaaa;
+    border: 1px solid #222;
+    border-radius: .4rem;
+    color: #222;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.check-all-btn:hover {
+    background-color: goldenrod;
+    color: #333;
+}
